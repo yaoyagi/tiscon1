@@ -245,6 +245,8 @@
                     <div class="col-md-3 col-sm-6">
                         <h4>Pages</h4>
 
+                        <div class="center"><a href="#header">先頭に戻る</a></div>
+
                         <ul>
                             <li><a href="http://www.tis.co.jp/recruit/index.html">About us</a>
                             </li>
@@ -268,7 +270,7 @@
                     </div>
                     <!-- /.col-md-3 -->
 
-                    <div class="col-md-3 col-sm-6">
+                   <!-- <div class="col-md-3 col-sm-6">
 
                         <h4>Ranking</h4>
 
@@ -279,7 +281,10 @@
                             </#list>
                         </ul>
                     </div>
+                    -->
                     <!-- /.col-md-3 -->
+
+                    <!--
                     <div class="col-md-3 col-sm-6">
                         <h5>Music</h5>
                         <ul>
@@ -291,7 +296,9 @@
                         <hr class="hidden-md hidden-lg">
 
                     </div>
+                     -->
                     <!-- /.col-md-3 -->
+
 
                     <div class="col-md-3 col-sm-6">
 

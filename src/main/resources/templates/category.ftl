@@ -1,6 +1,8 @@
 <#import "layout.ftl" as layout/>
 <#import "spring.ftl" as spring/>
 
+<div id="header"></div>
+
 <@layout.layout "Register">
     <div id="all">
         <div id="content">
@@ -20,7 +22,7 @@
                 <div class="col-md-3">
                     <!-- *** MENUS AND FILTERS ***
  _________________________________________________________ -->
-                    <div class="panel panel-default sidebar-menu">
+                <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
                             <h3 class="panel-title">Ranking</h3>
@@ -74,7 +76,8 @@
                                     </li>
                             </ul>
                         </div>
-                    </div>
+                 </div>
+
                     <!-- *** 検索機能用エリア
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">

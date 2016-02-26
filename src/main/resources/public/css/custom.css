@@ -23,3 +23,19 @@
 #content .product .text h3.text-category-list-title {
     height : 60px;
 }
+
+.absolute {
+    position: absolute;
+    bottom: 80px;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    width: 500%;
+    max-width: 600px;
+    padding: 1em 0;
+}
+.absolute p {
+    margin: 0;
+    padding: 0 0.8em;
+    font-size: 500%;
+    text-align: center;
+}

@@ -1,13 +1,17 @@
 <#import "layout.ftl" as layout/>
 <#import "spring.ftl" as spring/>
 
+<div id="header"></div>
+
 <@layout.layout "Register">
-    <div class="container">
-        <div class="col-md-12">
+
+ <div class="container">
+       <div class="col-md-12">
             <div id="main-slider">
-                <div class="item">
+                <figure class="relative">
                     <img src="img/index-img1.jpg" alt="" class="img-responsive">
-                </div>
+                    <figcaption class="absolute">ここに重ねる文字</p></figcaption>
+                </figure>
                 <div class="item">
                     <img class="img-responsive" src="img/index-img2.jpg" alt="">
                 </div>
@@ -18,13 +22,16 @@
                     <img class="img-responsive" src="img/index-img4.jpg" alt="">
                 </div>
             </div>
+
             <!-- /#main-slider -->
-        </div>
-    </div>
+       </div>
+
+   </div>
 
     <!-- *** ADVANTAGES HOMEPAGE ***
 _________________________________________________________ -->
     <div id="advantages">
+
 
         <div class="container">
             <div class="same-height-row">

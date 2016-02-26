@@ -26,7 +26,7 @@
                 <div class="col-md-3">
                     <!-- *** MENUS AND FILTERS ***
  _________________________________________________________ -->
-                    <div class="panel panel-default sidebar-menu">
+                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
                             <h3 class="panel-title">Ranking</h3>
@@ -61,13 +61,14 @@
                             </ul>
                         </div>
                     </div>
+
                     <!-- *** 検索機能用エリア
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">
                             <h3 class="panel-title">Search</h3>
                         </div>
-                    </div>
-                    *** -->
+                    <!-- </div> -->
+
                     <!-- *** MENUS AND FILTERS END *** -->
                 </div>
 
