@@ -48,7 +48,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -59,7 +59,7 @@
                                 <div class="yamm-content">
                                     <div class="row">
                                             <div class="col-sm-3">
-                                                <a href="/logout" class="layout-menu-font">Logout</a>
+                                                <a href="/logout" class="layout-menu-font">ログアウト</a>
                                             </div>
                                     </div>
                                 </div>
@@ -67,12 +67,12 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">登録</a>
                     </li>
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp/recruit/index.html">お問い合わせ</a>
                     </li>
                 </ul>
             </div>
@@ -120,7 +120,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="/" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="/">
                     <img src="/img/TISCON_LOGO.png" alt="TISCON logo" class="hidden-xs">
                     <img src="/img/TISCON_LOGO.png" alt="TISCON logo" class="visible-xs"><span class="sr-only">go to homepage</span>
                 </a>
@@ -144,7 +144,7 @@
 
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">ホーム</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Movie <b class="caret"></b></a>

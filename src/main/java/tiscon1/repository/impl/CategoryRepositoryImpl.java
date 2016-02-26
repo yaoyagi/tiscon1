@@ -86,7 +86,7 @@ public class CategoryRepositoryImpl implements CategoryRepository {
 
         // 参照する画像ファイルの大きさを変更
         String imageUrl = (String) mapItem.get("artworkUrl100");
-        imageUrl = imageUrl.replaceAll("50x50bb.jpg", "50x50bb.jpg");
+        imageUrl = imageUrl.replaceAll("100x100bb.jpg", "100x100bb.jpg");
 
         if (genreId.equals(MOVIE_ID)) {
             Movie movie = new Movie();

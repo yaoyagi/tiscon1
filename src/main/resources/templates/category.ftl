@@ -25,7 +25,7 @@
                 <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Ranking</h3>
+                            <h3 class="panel-title">ランキング</h3>
                         </div>
 
                         <div class="panel-body">
@@ -39,7 +39,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=33&subgenreId=">MOVIE </a>
+                                        <a href="/category?genreId=33&subgenreId=">映画 </a>
                                         <ul>
                                             <#list movieGenres as movie>
                                                 <li>
@@ -61,7 +61,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=34&subgenreId=">MUSIC </a>
+                                        <a href="/category?genreId=34&subgenreId=">音楽 </a>
                                         <ul>
                                             <#list musicGenres as music>
                                                 <li>
@@ -81,7 +81,7 @@
                     <!-- *** 検索機能用エリア
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Search</h3>
+                            <h3 class="panel-title">検索</h3>
                         </div>
                     </div>
                     *** -->
